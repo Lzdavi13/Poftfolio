@@ -8,7 +8,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
 #cabecalho img {
     display: block;
     width: 300px;
@@ -38,23 +37,14 @@ h2 {
     margin-top: 20px;
 }
 
-.rodape img{
-    display: block;
-    width: 50px;
+.rodape {
+    width: 127px;
+    height: 65px;
     margin: 0 auto;
 }
 
-.rodape a{
-    display: block;
-}
-
-.rodape{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.rodape img {
-    width: 70px;
-    padding: 10px 10px 10px 10px;
+.rodape img, a{
+    display: inline-block;
+    width: 50px;
+    margin: 5px;
 }
